@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
     }
 
-xxxx
+
     public void onLoginButton_Clicked  (View caller)
     {
         Intent intent = new Intent(this, LoginActivity.class);
@@ -29,6 +29,5 @@ xxxx
         Intent intent = new Intent(this, SignUpActivity.class);
        // intent.putExtra("Order",order);
         startActivity(intent);
-//yyyy
     }
 }

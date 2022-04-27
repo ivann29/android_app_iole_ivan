@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity
 
     }
 
-    public void obSignUpButton_Clicked  (View caller)
+    public void onSignUpButton_Clicked  (View caller)
     {
         Intent intent = new Intent(this, SignUpActivity.class);
        // intent.putExtra("Order",order);

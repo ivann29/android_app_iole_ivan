@@ -4,14 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".AccountActivity">
 
     <Button
-        android:id="@+id/confirmLogin"
+        android:id="@+id/GoogleMapsButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onConfirmLogin_Clicked"
-        android:text="@string/confirm_login"
+        android:layout_marginTop="166dp"
+        android:backgroundTint="#B36E6E"
+        android:onClick="onGoogleMapsButton_Clicked"
+        android:text="@string/location"
+        android:textColor="#000000"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="be.kuleuven.myandroidapp2">
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,6 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAndroidApp2">
+        <activity
+            android:name=".TestIvan"
+            android:exported="false" />
         <activity
             android:name=".AccountActivity"
             android:exported="false" />
@@ -52,10 +55,11 @@
 
         <meta-data
             android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version"/>
+            android:value="@integer/google_play_services_version" />
 
-        <uses-library android:name="org.apache.hhtp.legacy"
-            android:required="false"/>
+        <uses-library
+            android:name="org.apache.hhtp.legacy"
+            android:required="false" />
     </application>
 
 </manifest>

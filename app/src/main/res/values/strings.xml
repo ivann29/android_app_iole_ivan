@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyAndroidApp2</string>
+    <string name="name_of_application">Name of application</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="confirmLogin">Button</string>
+    <string name="location">Location</string>
+    <string name="confirm_login">confirm</string>
+</resources>

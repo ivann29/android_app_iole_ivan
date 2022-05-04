@@ -6,7 +6,9 @@ plugins {
 
 android {
     compileSdk 32
-
+    dataBinding{
+        enabled = true  //enable data binding
+    }
     defaultConfig {
         applicationId "be.kuleuven.myandroidapp2"
         minSdk 23
@@ -23,6 +25,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    dataBinding{
+        enabled = true  //enable data binding
+    }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -37,6 +42,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:21.0.3'
     implementation 'com.google.firebase:firebase-firestore:24.1.1'
     implementation 'com.google.firebase:firebase-storage:20.0.1'
+    implementation 'com.google.android.gms:play-services-maps:17.0.1'
 
 
     testImplementation 'junit:junit:4.13.2'

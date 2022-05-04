@@ -1,10 +1,10 @@
 package be.kuleuven.myandroidapp2;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity
 {
@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
     }
 
-xxxx
+
     
     public void onLoginButton_Clicked  (View caller)
     {
@@ -27,7 +27,7 @@ xxxx
 
     public void onSignUpButton_Clicked  (View caller)
     {
-        Intent intent = new Intent(this, SignUpActivity.class);
+        Intent intent = new Intent(this, TestIvan.class);
        // intent.putExtra("Order",order);
         startActivity(intent);
     }

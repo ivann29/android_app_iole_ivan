@@ -62,6 +62,14 @@
             android:layout_margin="8dp"
             android:background="@drawable/text_box"
             android:hint="Gender"/>
+        <EditText
+            android:id="@+id/ageET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/text_box"
+            android:hint="Age"/>
 
     </LinearLayout>
     <Button
@@ -73,16 +81,19 @@
         android:textColor="#fff"
         android:layout_above="@id/loginTV"
         android:layout_marginBottom="16dp"
-        android:id="@+id/signUpBtn"/>
+        android:id="@+id/signUpBtn"
+        android:text="CONFIRM"/>
+
     <TextView
+        android:id="@+id/loginTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/loginTV"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="26dp"
+        android:onClick="onBackLoginButton_Clicked"
         android:text="Back to Log in"
-        android:textStyle="bold"
-        android:textColor="@color/purple_200"/>
+        android:textColor="@color/purple_200"
+        android:textStyle="bold" />
 
 </RelativeLayout>
